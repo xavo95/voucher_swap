@@ -131,7 +131,8 @@ initialize_computed_offsets() {
 static struct initialization offsets[] = {
 	{ "iPhone11,*", "16C50-16C104", offsets__iphone11_8__16C50  },
 	{ "iPhone10,1", "16B92-16C101", offsets__iphone10_1__16B92  },
-	{ "*",          "*",            initialize_computed_offsets },
+//    { "*",          "*",            offsets__iphone10_1__16B92 },
+    { "*",          "*",            initialize_computed_offsets },
 };
 
 // The minimum number of offsets that must match in order to declare a platform initialized.

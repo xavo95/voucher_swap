@@ -6,6 +6,7 @@
 #define VOUCHER_SWAP__PLATFORM_H_
 
 #include <stdbool.h>
+#include <stddef.h>
 #include <mach/machine.h>
 
 #ifdef PLATFORM_EXTERN

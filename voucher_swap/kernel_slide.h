@@ -21,6 +21,14 @@
 extern uint64_t kernel_slide;
 
 /*
+ * kernel_load_base
+ *
+ * Description:
+ * 	The slided kernel address.
+ */
+extern uint64_t kernel_load_base;
+
+/*
  * kernel_slide_init
  *
  * Description:
